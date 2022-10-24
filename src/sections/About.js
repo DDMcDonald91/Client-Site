@@ -1,6 +1,8 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import { motion } from 'framer-motion'
 import './components/components.css'
+import  mockup  from '../images/mockup.png'
+import  mockup2  from '../images/mockup2.png'
 
 export default function About() {
   return (
@@ -42,7 +44,7 @@ export default function About() {
             }}
           viewport={{amount: 'some', once: true}}
           >
-          <Container fluid className='p-0' style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2145&q=80")', backgroundPosition: 'right', height: '20rem', backgroundSize: 'cover'}}></Container>
+          <Container fluid className='p-0' style={{ backgroundImage: `url(${mockup})`, backgroundPosition: 'right', height: '20rem', backgroundSize: 'cover'}}></Container>
           </motion.div>
         </Col>
         <Col xs={12} md={6} className='p-0'>
@@ -56,7 +58,7 @@ export default function About() {
             }}
           viewport={{amount: 'some', once: true}}
           >
-            <Container fluid className='p-0' style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1547333590-47fae5f58d21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2835&q=80")', backgroundPosition: 'right', height: '20rem', backgroundSize: 'cover'}}></Container>
+            <Container fluid className='p-0' style={{ backgroundImage: `url(${mockup2})`, backgroundPosition: 'right', height: '20rem', backgroundSize: 'cover'}}></Container>
           </motion.div>
         </Col>
     </Row>
