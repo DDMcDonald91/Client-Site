@@ -1,8 +1,8 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import { motion } from 'framer-motion'
 import './components/components.css'
-import  mockup  from '../images/mockup.png'
-import  mockup2  from '../images/mockup2.png'
+import mockup  from '../images/mockup.png'
+import mockup2  from '../images/mockup2.png'
 
 export default function About() {
   return (
