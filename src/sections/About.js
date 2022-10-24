@@ -38,7 +38,7 @@ export default function About() {
           whileInView="visible"
           variants={{
             visible: { opacity: 1, x: 0 },
-            hidden: { opacity: 0, x: -400 }
+            hidden: { opacity: 0, x: -200 }
             }}
           viewport={{amount: 'some', once: true}}
           >
@@ -48,11 +48,11 @@ export default function About() {
         <Col xs={12} md={6} className='p-0'>
         <motion.div 
           initial="hidden"
-          transition={{ duration: 2, delay: 1 }} 
+          transition={{ duration: 2, delay: .5 }} 
           whileInView="visible"
           variants={{
             visible: { opacity: 1, x: 0 },
-            hidden: { opacity: 0, x: 400 }
+            hidden: { opacity: 0, x: 200 }
             }}
           viewport={{amount: 'some', once: true}}
           >
