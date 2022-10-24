@@ -1,0 +1,80 @@
+#logo {
+    font-size: 2.5rem;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    color: white;
+}
+
+#hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../images/image1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-container {
+    background: linear-gradient(white ,#214440, #214440);
+}
+
+.spacing {
+    margin: 42px 0;
+}
+
+#image {
+    height: 30rem;
+    width: 100%;
+}
+#about-image {
+    height: 30rem;
+    width: 100%;
+    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1561002515-3aa8c1fdba2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3026&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#modal-image {
+    height: 30rem;
+    width: 100%;
+    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1578393098337-5594cce112da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2270&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.service {
+    border: none;
+    height: 16rem;
+    background: linear-gradient(white, white, #214440)
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: auto;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: 15rem;
+    background-position: center;
+    background-size: cover;
+  }
+
+.Toastify__progress-bar-theme--colored,
+.Toastify__progress-bar--info,
+.Toastify__progress-bar-theme--colored,
+.Toastify__progress-bar--success,
+.Toastify__progress-bar-theme--colored,
+.Toastify__progress-bar--warning,
+.Toastify__progress-bar-theme--colored,
+.Toastify__progress-bar--error {
+    background: orange;
+}
