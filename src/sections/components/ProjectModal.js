@@ -7,7 +7,7 @@ export default function ProjectModal() {
   
     return (
         <>
-        <Button variant='outline-success' style={{fontFamily: "'Inika', serif"}} onClick={() => setLgShow(true)}>Learn More</Button>
+        <Button variant='outline-success' style={{fontFamily: 'Montserrat, sans-serif'}} onClick={() => setLgShow(true)}>Learn More</Button>
 
         <Modal
           size="lg"
@@ -47,7 +47,7 @@ export default function ProjectModal() {
               <Row>
                 <Col xs={12} md={6}>
               <h2>branding</h2>
-                <ul>
+                <ul style={{fontFamily: 'Montserrat, sans-serif'}}>
                   <li>color palette</li>
                   <li>font pairings</li>
                   <li>mood board</li>
@@ -55,7 +55,7 @@ export default function ProjectModal() {
                 </Col>
                 <Col xs={12} md={6}>
                 <h2>design</h2>
-                <ul>
+                <ul style={{fontFamily: 'Montserrat, sans-serif'}}>
                   <li>website wireframes</li>
                   <li>logo design</li>
                   <li>graphic design</li>
@@ -66,14 +66,14 @@ export default function ProjectModal() {
                 </Col>
                 <Col xs={12} md={6}>
                 <h2>marketing</h2>
-                <ul>
+                <ul style={{fontFamily: 'Montserrat, sans-serif'}}>
                   <li>SEO optimization</li>
                   <li>marketing strategies</li>
                 </ul>
                 </Col>
                 <Col xs={12} md={6}>
                 <h2>development</h2>
-                <ul>
+                <ul style={{fontFamily: 'Montserrat, sans-serif'}}>
                   <li>custom website creation</li>
                   <li>work with cms platforms: Wix, Wordpress, Shopify, Squarespace, etc.</li>
                   <li>website redesign and editing</li>
