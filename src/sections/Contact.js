@@ -53,11 +53,11 @@ export default function Contact() {
                         <Col xs={12} md={6}>
                     <Form.Group className="mb-3" controlId="formBasicFirstName">
                         <Form.Label>First Name</Form.Label>
-                        <Form.Control type="name" placeholder="Enter your first name" name="f_name" />
+                        <Form.Control type="text" placeholder="Enter your first name" name="f_name" />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicLastName">
                         <Form.Label>Last Name</Form.Label>
-                        <Form.Control type="name" placeholder="Enter your last name" name="l_name" />
+                        <Form.Control type="text" placeholder="Enter your last name" name="l_name" />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicBusinessName">
                         <Form.Label>Business Name</Form.Label>
@@ -71,7 +71,7 @@ export default function Contact() {
                         <Col xs={12} md={6}>
                     <Form.Group className="mb-3" controlId="formBasicMessage">
                         <Form.Label>Message</Form.Label>
-                        <Form.Control as="textarea" style={{height: '10rem'}} type="message" placeholder="Leave us a message" name='message' />
+                        <Form.Control as="textarea" style={{height: '10rem'}} type="message" placeholder="Leave us a message" name="message" />
                     </Form.Group>
                     </Col>
                     <Button variant="outline-success" type="submit" className='w-50' style={{margin: '5px auto'}}>
