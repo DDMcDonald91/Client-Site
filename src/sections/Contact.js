@@ -71,7 +71,7 @@ export default function Contact() {
                         <Col xs={12} md={6}>
                     <Form.Group className="mb-3" controlId="formBasicMessage">
                         <Form.Label>Message</Form.Label>
-                        <Form.Control as="textarea" style={{height: '10rem'}} type="message" placeholder="Leave us a message" name='"message' />
+                        <Form.Control as="textarea" style={{height: '10rem'}} type="message" placeholder="Leave us a message" name='message' />
                     </Form.Group>
                     </Col>
                     <Button variant="outline-success" type="submit" className='w-50' style={{margin: '5px auto'}}>
