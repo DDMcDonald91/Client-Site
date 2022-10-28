@@ -17,8 +17,8 @@ export default function About() {
         }}
       viewport={{amount: 'some', once: true}}
       >
-    <h2 className='heading mb-3'>web design reimagined.</h2>
-    <p>Welcome to DDM Web Designs where we help businesses improve their brand image by creating a professional, responsive website that is optimized for search engines and easy to navigate. Our team of web designers will create a visually stunning site that accurately reflects your brand identity. We also offer a range of additional services to help you get the most out of your website.</p>
+    <h2 className='heading mb-3'>web design for small businesses.</h2>
+      <p>Welcome to DDM Web Designs where we help small business owners turn their side hustle into a full time business! We do this by helping with brand image by creating a professional, responsive websites that are optimized for search engines and easy to navigate. Our team of experts will create a visually stunning site that accurately reflects your brand identity. We also offer a range of additional services to help you get the most out of your website.</p>
     </motion.div>
     <motion.div 
       initial="hidden"

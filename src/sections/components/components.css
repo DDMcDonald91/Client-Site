@@ -41,6 +41,14 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+#special-modal-image {
+    height: 30rem;
+    width: 100%;
+    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .service {
     border: none;

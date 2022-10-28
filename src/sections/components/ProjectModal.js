@@ -24,7 +24,9 @@ export default function ProjectModal() {
             variants={{
               visible: { opacity: 1 },
               hidden: { opacity: 0 }
-              }}>
+              }}
+              viewport={{amount: 'some', once: true}}
+              >
             <Modal.Title id="example-modal-sizes-title-lg">
               <h1>service description</h1>
             </Modal.Title>

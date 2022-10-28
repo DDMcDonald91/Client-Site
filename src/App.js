@@ -6,12 +6,14 @@ import Contact from './sections/Contact';
 import Hero from './sections/Hero';
 import Projects from './sections/Projects';
 import Footer from './sections/components/Footer'
+import SpecialModal from './sections/components/SpecialModal';
 
 function App() {
   return (
     <Container fluid className='p-0'>
       <Navigation />
       <Hero />
+      <SpecialModal title={'limited time special'} />
       <Container fluid className='p-0' id='main-container'>
         <Container style={{ maxWidth: '60rem' }}>
           <About />
