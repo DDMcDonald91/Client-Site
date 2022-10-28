@@ -15,11 +15,6 @@ export default function Contact() {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
-        if(!form.f_name || !form.l_name || !form.email || !form.message) {
-            val()
-            return
-        }
     
         emailjs.sendForm('service_1tt57aa', 'template_r6fwi73', form.current, 'ROjDrDn9IcjRZkwBc')
           .then((result) => {
